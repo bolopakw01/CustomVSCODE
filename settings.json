@@ -1,0 +1,106 @@
+{
+    // ===================================================================
+    // --- PENGATURAN UMUM & AKUN ---
+    // ===================================================================
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "mcpServers": {},
+    "database-client.autoSync": true,
+
+    // ===================================================================
+    // --- KUSTOMISASI TAMPILAN & UI ---
+    // ===================================================================
+    // ⚠️ Nonaktifkan sementara untuk hilangkan error "installation corrupt"
+    // Jika ingin pakai lagi, hapus komentar (//) di bawah
+    // "vscode_custom_css.imports": [
+    //     "file:///D:/CODE/CustomVSCODE/BKW.css",
+    //     "file:///D:/CODE/CustomVSCODE/BKW.js"
+    // ],
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "editorGroupHeader.tabsBackground": "#202020",
+        "tab.border": "#282828"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+
+    // ===================================================================
+    // --- EDITOR & TERMINAL ---
+    // ===================================================================
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Cascadia Code PL', 'MesloLGS NF', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+
+    // ⚡ FONT TERMINAL (untuk Oh My Posh gunakan satu font Nerd Font saja)
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontSize": 13,
+
+    "editor.renderWhitespace": "selection",
+    "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    // ===================================================================
+    // --- FORMATTER SPESIFIK BAHASA ---
+    // ===================================================================
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell",
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "php.validate.executablePath": "D:/CODE/XAMPP/XAMPP-8.2.12/php/php.exe",
+    "php.executablePath": "D:/CODE/XAMPP/XAMPP-8.2.12/php/php.exe",
+    "intelephense.environment.phpExecutablePath": "D:/CODE/XAMPP/XAMPP-8.2.12/php/php.exe",
+    // "php.debug.executablePath": "D:/CODE/XAMPP/XAMPP-8.2.12/php/php.exe",
+
+    // ===================================================================
+    // --- EKSTENSI TAMBAHAN ---
+    // ===================================================================
+    "vscord.app.name": "Visual Studio Code",
+    "vscode-pets.petType": "totoro",
+    "vscode-pets.petColor": "akita",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.throwBallWithMouse": true,
+
+    "git.autofetch": true,
+
+    // ===================================================================
+    // --- CODIUM CONFIG ---
+    // ===================================================================
+    "codium.codeCompletion.enable": false,
+    "codium.customInstructions.allMessages": "",
+    "codium.customInstructions.specificCommands": {},
+    "codium.editorButton": true,
+    "codium.codeCompletion.userInstructions": "",
+    "codium.rag.maxLocalSnippets": 5,
+    "codium.rag.maxRemoteSnippets": 5,
+    "codium.terminalAllowedCommands": [
+        "curl",
+        "php"
+    ],
+    "codium.terminalBlockedCommands": [],
+    "chat.tools.terminal.autoApprove": {
+        "php": true
+    },
+
+    // ===================================================================
+    // --- SECURITY (untuk hilangkan warning "corrupt installation") ---
+    // ===================================================================
+    "security.workspace.trust.enabled": false
+}
